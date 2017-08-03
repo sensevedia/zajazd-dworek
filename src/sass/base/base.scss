@@ -1,0 +1,80 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-style: normal;
+    background:#fff;
+    color: #422a2d;
+
+}
+
+p
+{
+    font-size: 1.4rem;
+}
+
+a
+{
+    text-decoration: none;
+    color: #422a2d;
+
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #d1ab70;
+}
+a:focus,
+a:active
+{
+    outline: none;
+    text-decoration: none;
+    color:#d1ab70;
+
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+textarea:focus,
+div.bootstrap-select .dropdown-toggle:focus,
+button,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #d7d7d7;
+  box-shadow:none;
+  outline: 0 none !important;
+}
