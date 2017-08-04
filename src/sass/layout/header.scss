@@ -1,5 +1,6 @@
 .header-main {
 	background:#32181b;
+    transition: all 300ms ease-in-out;
     &__contact-beam {
         background: #3e292c;
         padding: 7px 0;
@@ -10,7 +11,7 @@
 
         a {
             color: #e0e0e0;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             display: inline-block;
             margin-right: 10px;
 
@@ -79,6 +80,13 @@
     	left:0;
     	right:0;
     	margin-top: 13px;
+        z-index: 10;
+         @media screen and (min-width: 768px) {
+        background: none;
+        position:relative;
+        margin-top: 5px;
+        float:right;
+     }
     	
 
     	&__list{
@@ -88,19 +96,56 @@
     		li{
     			display: block;
     			border-bottom:1px solid rgba(255, 255, 255, 0.12);
+                  @media screen and (min-width: 768px) {
+                    border:0;
+                    display: inline-block;
+                    margin-right: 20px;
+                  }
     			a{
     				color:#fff;
     				text-align: center;
     				font-size:1.6rem;
     				padding:15px 0;
     				display: block;
+                         @media screen and (min-width: 768px) {
+                            text-transform: uppercase;
+                            font-size: 1.4rem;
+                            position: relative;
+                         }
 
     				&:hover{
     					    background: #32181b;
     color: #c88f38;
     				}
     			}
+                a::after{
+                     @media screen and (min-width: 768px) {
+                    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    right: -13px;
+    top: 23px;
+    background: #cda665;
+                     } 
+                }
     		}
+            li:last-of-type{
+                     @media screen and (min-width: 768px) {
+                        margin-right: 0;
+                     }
+                      a::after{
+                display: none;
+            }
+            }
+
     	}
+    }
+}
+
+.header-main.top-nav-collapse{
+    .header-main__contact-beam{
+        display: none;
     }
 }
