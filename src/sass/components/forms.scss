@@ -1,0 +1,11 @@
+.form-group label.text-error{
+	position: absolute;
+    bottom: 5px;
+    top: auto;
+    color:#32181b;
+    font-family: 'Merriweather', serif;
+}
+
+.form-group .form-control.text-error{
+border-bottom:4px solid red;
+}

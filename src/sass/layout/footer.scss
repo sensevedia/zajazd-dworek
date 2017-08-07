@@ -22,6 +22,7 @@
 			a{
 				color:#cda665;
 				text-decoration: underline;
+
 			}
 		}
 		.footer-contact{
@@ -30,6 +31,9 @@
 			text-align: center;
 			color:#cda665;
 			font-family: "odstemplik";
+			&:hover{
+				color:#fff;
+			}
 		}
 	}
 	&__nav{
@@ -51,7 +55,9 @@
 				position: relative;
 				 @media screen and (min-width: 768px) {
 		 	font-size: 1.2rem;
-		 }
+		 }&:hover{
+				color:#fff;
+			}
 			}
 			a::after{
 				content:"";
@@ -107,6 +113,11 @@
 				margin-right: 5px;
 				color:#cda665;
 			}
+			&:hover{
+				span::before{
+					color:#fff;
+				}
+			}
 		}
 		a:last-of-type{
 			margin-right: 0;
@@ -130,4 +141,8 @@
     text-align: center;
 		 }
 
+}
+
+.footer-main.margin-t-0{
+	margin-top: 0;
 }

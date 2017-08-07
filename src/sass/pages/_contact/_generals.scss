@@ -1,0 +1,89 @@
+
+.contact-page{
+	padding: 0px 0 50px;
+	&__date{
+		position: relative;
+ @media screen and (min-width: 1024px) {
+		border-right: 1px solid #d4cecf;
+    margin-right: 22%;
+}
+		.contact__content{
+			//text-align: left;
+		}
+		.contact__top,
+		.contact__bottom{
+			.page-title{
+				color:#422a2d;
+				 @media screen and (min-width: 767px) {
+						font-size: 3rem;
+				 }
+				  @media screen and (min-width: 1600px) {
+     	font-size: 4rem;
+     }
+			}
+		}
+		.contact-qr{
+			 @media screen and (min-width: 1200px) {
+			 	margin-top: 50px;
+			 }
+			.page-title{
+				color:#422a2d;
+				 @media screen and (min-width: 767px) {
+						font-size: 3rem;
+				 }
+				 			  @media screen and (min-width: 1600px) {
+     	font-size: 4rem;
+     }
+			}
+
+			.qr-img{
+				height: 150px;
+				
+				margin: 20px auto 0;
+				 @media screen and (min-width: 767px) {
+						margin-left: 0;
+				 }
+				 			  @media screen and (min-width: 1600px) {
+     	height: 200px;
+     }
+			}
+			.extra-text{
+				display: block;
+				font-size: 1.1rem;
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.contact__form{
+		margin-top: 40px;
+		 @media screen and (min-width: 767px) {
+						margin-top: 0;
+				 }
+				 .page-title{
+				 	 @media screen and (min-width: 767px) {
+						font-size: 3rem;
+				 }
+				 			  @media screen and (min-width: 1600px) {
+     	font-size: 4rem;
+     }
+				 }
+	}
+}
+
+.contact-map{
+	height:150px;
+		 @media screen and (min-width: 767px) {
+						height:300px;
+				 }
+				 	 @media screen and (min-width: 1200px) {
+						height:400px;
+				 }
+				  	 @media screen and (min-width: 1600px) {
+						height:600px;
+				 }
+}
+
+.title-map{
+	font-size: 1.2rem;
+}

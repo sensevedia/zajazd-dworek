@@ -47,8 +47,14 @@
     }
     &__address{
     	 color: #e0e0e0;
-    	 font-size: 1.3rem;
+    	 font-size: 1.1rem;
     	 display: none;
+              @media screen and (min-width: 767px) {
+                display: inline-block;
+                float:right;
+                    position: relative;
+    top: 8px;
+              }
     }
     .container-content{
     	padding:13px 15px;
