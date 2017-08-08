@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(".navbar-fixed-top").offset().top > 1) {
+    if ($(".navbar-fixed-top").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         
         //$(".container-nav").removeClass("scroll-nav");

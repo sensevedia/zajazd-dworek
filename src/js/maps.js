@@ -20,7 +20,7 @@
     var iconsLength = icons.length;
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 13,
+      zoom: 8,
       center: new google.maps.LatLng(50.68118,24.0546372),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,

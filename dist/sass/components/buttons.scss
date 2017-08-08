@@ -1,0 +1,13 @@
+.link-main{
+background: #533d40;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 11px 29px;
+    display: inline-block;
+    border-radius: 7px;
+	&:hover{
+		background:#cda665;
+		color:#fff;
+	}
+}

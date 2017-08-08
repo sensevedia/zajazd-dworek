@@ -1,0 +1,15 @@
+.page-title{
+	margin: 0;
+	font-size: 2.7rem;
+	font-family: "odstemplik";
+	color:#c88f38;
+}
+.main-page{
+	margin-top: 30px;
+	 @media screen and (min-width: 767px) {
+						margin-top: 60px;
+				 }
+				  @media screen and (min-width: 1300px) {
+						margin-top: 80px;
+				 }
+}

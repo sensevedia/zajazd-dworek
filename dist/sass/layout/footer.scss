@@ -1,0 +1,148 @@
+.footer-main{
+	background:#32181b;
+	padding: 30px 0;
+	position:relative;
+	margin-top: 25px;
+	 @media screen and (min-width: 768px) {
+	 	padding:30px 0 0;
+	 }
+	&__info{
+		margin-bottom: 20px;
+		text-align: center;
+		 @media screen and (min-width: 768px) {
+		 	text-align: left;
+		 }
+		p{
+			color:#cda665;
+			font-size: 1.2rem;
+			display: block;
+				 @media screen and (min-width: 768px) {
+		 	font-size: 1.1rem;
+		 }
+			a{
+				color:#cda665;
+				text-decoration: underline;
+
+			}
+		}
+		.footer-contact{
+			font-size: 2.3rem;
+			display: block;
+			text-align: center;
+			color:#cda665;
+			font-family: "odstemplik";
+			&:hover{
+				color:#fff;
+			}
+		}
+	}
+	&__nav{
+		list-style: none;
+		padding:0;
+		margin: 0;
+		position:relative;
+		text-align: center;
+		 @media screen and (min-width: 768px) {
+		 	text-align: right;
+		 }
+		li{
+			display: inline-block;
+			margin-right: 5px;
+			a{
+				text-transform: uppercase;
+				color:#cda665;
+				font-size: 1rem;
+				position: relative;
+				 @media screen and (min-width: 768px) {
+		 	font-size: 1.2rem;
+		 }&:hover{
+				color:#fff;
+			}
+			}
+			a::after{
+				content:"";
+				width: 2px;
+				height: 2px;
+				border-radius: 50%;
+				position:absolute;
+			    right: -6px;
+    top: 5px;
+				background:#cda665;
+			}
+			
+		}
+		li:last-of-type{
+
+			margin-right: 0;
+			a::after{
+				display: none;
+			}
+		}
+
+	}
+	&__nav::after{
+		 @media screen and (min-width: 768px) {
+    content: "";
+    display: block;
+    background: url(../img/footer-pattern.png) no-repeat scroll 0 0;
+    height: 16px;
+    background-size: contain;
+    width: 160px;
+    margin: 14px 0 0 auto;
+		 }
+	}
+	.socials-link{
+		margin-top: 10px;
+		text-align: center;
+		margin-bottom: 15px;
+		 @media screen and (min-width: 768px) {
+		 	text-align: right;
+		 }
+		.title{
+			color:#cda665;
+			display: block;
+			margin-bottom: 8px;
+			text-align: center;
+			 @media screen and (min-width: 768px) {
+		 	text-align: right;
+		 }
+		}
+		a{
+			span::before{
+				color:#cda665;
+				margin-right: 5px;
+				color:#cda665;
+			}
+			&:hover{
+				span::before{
+					color:#fff;
+				}
+			}
+		}
+		a:last-of-type{
+			margin-right: 0;
+		}
+	}
+}
+
+.footer-main::before{
+	 @media screen and (min-width: 768px) {
+  content: "\f115";
+    display: block;
+    font-family: "Flaticon";
+    font-size: 6rem;
+    color: #cca364;
+    margin: 14px 0 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    line-height: 0;
+    right: 0;
+    text-align: center;
+		 }
+
+}
+
+.footer-main.margin-t-0{
+	margin-top: 0;
+}
