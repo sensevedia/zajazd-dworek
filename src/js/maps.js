@@ -9,14 +9,14 @@
     ];
     
     // Setup the different icons and shadows
-    var iconURLPrefix = '';
-    
-    var icons = [
-      iconURLPrefix + '../img/mark.png',
+   // var iconURLPrefix = 'window.location.protocol+"//"+window.location.hostname';
+   // window.location.protocol + "//" + window.location.hostname + "/img/mark.png"
+    var icons = [window.location.protocol + "//" + window.location.hostname + "/base/Zajazd/img/mark.png"]
+
    
 
 
-    ]
+    
     var iconsLength = icons.length;
 
     var map = new google.maps.Map(document.getElementById('map'), {

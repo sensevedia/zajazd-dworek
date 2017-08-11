@@ -84,11 +84,14 @@
 		 @media screen and (min-width: 768px) {
     content: "";
     display: block;
-    background: url(../img/footer-pattern.png) no-repeat scroll 0 0;
+    background: url(../img/spritesheet.png) no-repeat scroll 0 0;
     height: 16px;
-    background-size: contain;
+    //background-size: contain;
     width: 160px;
     margin: 14px 0 0 auto;
+    
+    background-position: 20px -13px;
+    background-size: 90%;
 		 }
 	}
 	.socials-link{

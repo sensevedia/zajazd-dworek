@@ -24,12 +24,13 @@ border-bottom-left-radius: 6px;
 	}
 	.fb-button::before{
 		content:"";
-		background:url('../img/footer-pattern.png') no-repeat scroll 0 0;
+		background:url('../img/spritesheet.png') no-repeat scroll 0 0;
 		    height: 48px;
     width: 63px;
     position: absolute;
     display: inline-block;
-    
+       background-position: -17px -11px;
+    background-size: 169%;
 left: -4px;
     top: 5px;
     transform: rotate(-90deg);

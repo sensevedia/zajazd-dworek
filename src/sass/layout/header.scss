@@ -1,9 +1,11 @@
 .header-main {
 	background:#32181b;
-    transition: all 300ms ease-in-out;
+    transition: all 50ms ease-in-out;
     &__contact-beam {
         background: #3e292c;
         padding: 7px 0;
+        transition: all 50ms ease-in-out;
+               position: relative;
     }
 
     .contact-top-links {
@@ -59,7 +61,7 @@
     .container-content{
     	padding:13px 15px;
     	position:relative;
-   transition: all 300ms ease-in-out;
+   transition: all 10ms ease-in-out;
     }
     .logo-main{
     	width: 135px;
@@ -152,6 +154,7 @@
 
 .header-main.top-nav-collapse{
     .header-main__contact-beam{
-        display: none;
+ 
+        margin-top:-37px;
     }
 }

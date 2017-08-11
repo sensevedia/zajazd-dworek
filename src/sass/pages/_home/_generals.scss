@@ -49,11 +49,16 @@
 			.page-title::after{
 		content:"";
 		display: block;
-		background: url('../img/pattern-all.png') no-repeat scroll 0 0;
+		background: url('../img/spritesheet.png') no-repeat scroll 0 0;
 		    height: 25px;
-    background-size: contain;
+    background-size:88%;
+
     width: 213px;
     margin: 14px auto;
+
+    // width: 309px;
+   // height: 25px;
+    background-position: 14px -13px;
 
 	}
 		.header__small-text{
@@ -106,6 +111,7 @@
 		 @media screen and (min-width: 992px) {
 		       margin: 0 auto 38px;
     height: auto;
+    width: 100%;
 
 
 }
@@ -300,12 +306,14 @@ padding:0 15px;
 			display: inline-block;
 			position:absolute;
 			right: -110px;
-			background:url('../img/pattern-side.png') no-repeat scroll 0 0;
+			background:url('../img/spritesheet.png') no-repeat scroll 0 0;
 			height: 30px;
     width: 100px;
-    background-size: contain;
+  //  background-size: contain;
     transform: rotate(180deg);
     top: -3px;
+background-position: 1px -35px;
+    background-size: 171%;
     	  @media screen and (min-width: 1300px) {
 		top:8px;
 		  }
@@ -315,12 +323,15 @@ padding:0 15px;
 			display: inline-block;
 			position:absolute;
 			left: -110px;
-			background:url('../img/pattern-side.png') no-repeat scroll 0 0;
+			background:url('../img/spritesheet.png') no-repeat scroll 0 0;
+			 background-position: 1px -35px;
+    background-size: 171%;
 			height: 30px;
     width: 100px;
-    background-size: contain;
+    
   
     top: 13px;
+
     	  @media screen and (min-width: 1300px) {
 		top:23px;
 		  }
@@ -404,10 +415,12 @@ padding:0 15px;
 			display: inline-block;
 			position:absolute;
 			right: -110px;
-			background:url('../img/pattern-side.png') no-repeat scroll 0 0;
+				background:url('../img/spritesheet.png') no-repeat scroll 0 0;
+			 background-position: 1px -35px;
+    background-size: 171%;
 			height: 30px;
     width: 100px;
-    background-size: contain;
+  
     transform: rotate(180deg);
     top: -3px;
     	  @media screen and (min-width: 1300px) {
@@ -419,10 +432,12 @@ padding:0 15px;
 			display: inline-block;
 			position:absolute;
 			left: -110px;
-			background:url('../img/pattern-side.png') no-repeat scroll 0 0;
+				background:url('../img/spritesheet.png') no-repeat scroll 0 0;
+			 background-position: 1px -35px;
+    background-size: 171%;
 			height: 30px;
     width: 100px;
-    background-size: contain;
+ 
   
     top: 13px;
     	  @media screen and (min-width: 1300px) {

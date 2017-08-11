@@ -13,3 +13,4 @@ $(window).scroll(function() {
        //  $("body").removeClass("small-padding");
     }
 });
+

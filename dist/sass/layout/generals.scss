@@ -13,3 +13,10 @@
 						margin-top: 80px;
 				 }
 }
+
+.col-xs-100{
+	
+	  @media screen and (max-width: 450px) {
+width: 100%;
+	  }
+}
