@@ -1,22 +1,24 @@
-.page-title{
-	margin: 0;
-	font-size: 2.7rem;
-	font-family: "odstemplik";
-	color:#c88f38;
-}
-.main-page{
-	margin-top: 30px;
-	 @media screen and (min-width: 767px) {
-						margin-top: 60px;
-				 }
-				  @media screen and (min-width: 1300px) {
-						margin-top: 80px;
-				 }
+.page-title {
+    margin: 0;
+    font-size: 2.7rem;
+    font-family: "odstemplik";
+    color: #c88f38;
 }
 
-.col-xs-100{
-	
-	  @media screen and (max-width: 450px) {
-width: 100%;
-	  }
+.main-page {
+    margin-top: 30px;
+
+    @media screen and (min-width: 767px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (min-width: 1300px) {
+        margin-top: 80px;
+    }
+}
+
+.col-xs-100 {
+    @media screen and (max-width: 450px) {
+        width: 100%;
+    }
 }

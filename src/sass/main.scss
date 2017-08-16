@@ -1,6 +1,6 @@
 
 /* IMPORT STYLES */
-
+@import 'helpers/variables.scss';
 /* BASE */
 
 @import 'base/base.scss';
@@ -9,7 +9,7 @@
 
 /* HELPERS */
 
-@import 'helpers/variables.scss';
+
 @import 'helpers/mixins.scss';
 @import 'helpers/helpers.scss';
 

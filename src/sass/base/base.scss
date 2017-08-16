@@ -1,45 +1,37 @@
-html
-{
+html {
     font-size: 62.5%;
 }
 
-body
-{
+body {
     font-family: 'Merriweather', serif;
     font-size: 1.4rem;
     font-weight: normal;
     font-style: normal;
-    background:#fff;
-    color: #422a2d;
+    background: #fff;
+    color: $color-page;
     padding-top: 126px;
     transition: padding 50ms ease-in-out;
-
 }
 
-p
-{
+p {
     font-size: 1.4rem;
 }
 
-a
-{
+a {
     text-decoration: none;
-    color: #422a2d;
-
+    color: $color-page;
 }
 
-a:hover
-{
+a:hover {
     text-decoration: none;
     color: #d1ab70;
 }
+
 a:focus,
-a:active
-{
+a:active {
     outline: none;
     text-decoration: none;
-    color:#d1ab70;
-
+    color: #d1ab70;
 }
 
 textarea:hover,
@@ -58,6 +50,7 @@ label:focus,
     outline: 0px !important;
     -webkit-appearance: none;
 }
+
 textarea:focus,
 div.bootstrap-select .dropdown-toggle:focus,
 button,
@@ -75,8 +68,8 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
-.uneditable-input:focus {   
-  border-color: #d7d7d7;
-  box-shadow:none;
-  outline: 0 none !important;
+.uneditable-input:focus {
+    border-color: #d7d7d7;
+    box-shadow: none;
+    outline: 0 none !important;
 }

@@ -1,84 +1,94 @@
-.line-seperator::after{
-	position: relative;
-	content:"";
-	width: 100%;
-	height:1px;
-	display: block;
-	margin-top: 5px;
-	background:#ddba85;
-}
-.line-seperator::before{
-	position: relative;
-	content:"";
-	width: 100%;
-	height:1px;
-	display: block;
-	//margin-top: 5px;
-	background:#ddba85;
-}
-.line-seperator{
-	width: calc(100% - 30px);
-	margin: 0 auto;
-	  @media screen and (min-width: 1600px) {
-	  	width: calc(100% - 200px);
-	  }
+.line-seperator::after {
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-top: 5px;
+    background: #ddba85;
 }
 
-.advantages{
-	
-	margin:57px 0 20px;
-	display:none;
-	 @media screen and (min-width: 1200px) {
-	 	display: block;
-	 }
- @media screen and (min-width: 1300px) {
-	 margin: 57px 0 67px;
-	}
-	.title{
-		display: block;
-		margin: 0 0 25px;
-		font-size: 1.7rem;
-		color:#686868;
-		font-weight: 300;
-	}
-	&__list{
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		li{
-			margin-right: 84px;
-			display: inline-block;
+.line-seperator::before {
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
 
-			
+    //margin-top: 5px;
+    background: #ddba85;
+}
 
-			.icon{
-				position: absolute;
-				left:0;
-				top:5px;
-			}
-			.icon::before{
-				font-size: 2.6rem;
-				color:#c88f38;
-			}
-			.item__text{
-				display: block;
-				font-size: 1.2rem;
-				color:#686868;
-				line-height: 1.7rem;
-				position:relative;
-				top:6px;
-				b{
-					display: block;
-				}
-			}
+.line-seperator {
+    width: calc(100% - 30px);
+    margin: 0 auto;
 
-		}
-		li:last-of-type{
-			margin-right: 0;
-		}
-	}
-	&__item{
-		position:relative;
-			padding-left: 40px;
-	}
+    @media screen and (min-width: 1600px) {
+        width: calc(100% - 200px);
+    }
+}
+
+.advantages {
+    margin: 57px 0 20px;
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1300px) {
+        margin: 57px 0 67px;
+    }
+
+    .title {
+        display: block;
+        margin: 0 0 25px;
+        font-size: 1.7rem;
+        color: #686868;
+        font-weight: 300;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-right: 84px;
+            display: inline-block;
+
+            .icon {
+                position: absolute;
+                left: 0;
+                top: 5px;
+            }
+
+            .icon::before {
+                font-size: 2.6rem;
+                color: #c88f38;
+            }
+
+            .item__text {
+                display: block;
+                font-size: 1.2rem;
+                color: #686868;
+                line-height: 1.7rem;
+                position: relative;
+                top: 6px;
+
+                b {
+                    display: block;
+                }
+            }
+        }
+
+        li:last-of-type {
+            margin-right: 0;
+        }
+    }
+
+    &__item {
+        position: relative;
+        padding-left: 40px;
+    }
 }

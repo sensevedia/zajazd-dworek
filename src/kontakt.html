@@ -230,9 +230,15 @@
     <script src="js/lightbox.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/img-load.js"></script>
+    <script src="js/jquery.cookie.js"></script>
     <!-- endbuild -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJa2bEsVAueGRBeMQ0iVKMjyIxbQyvDVM"></script>
     <script src="js/maps.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+        $.cookiepolicy();
+        });
+    </script>
     <script>
         jQuery(function(){
           $("img.coverImage").cover();

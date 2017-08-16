@@ -1,47 +1,77 @@
-.socials-plugin{
-	position: fixed;
-	right:-200px;
-	top:200px;
-	z-index: 100;
-	transition:all 600ms ease-in-out;
- @media screen and (max-height: 400px) {
-top:14px;
- }
-	.fb-button{
+.socials-plugin {
+    position: fixed;
+    right: -200px;
+    top: 200px;
+    z-index: 100;
+    transition: all 600ms ease-in-out;
 
-		border:0;
-		background: #32181b;
-		border-top-left-radius: 6px;
-border-bottom-left-radius: 6px;
-    padding: 10px 17px;
-    position: absolute;
-    left: -54px;
-    overflow:hidden;
-    cursor:pointer;
-		span::before{
-			color:#fff;
-		}
-	}
-	.fb-button::before{
-		content:"";
-		background:url('../img/spritesheet.png') no-repeat scroll 0 0;
-		    height: 48px;
-    width: 63px;
-    position: absolute;
-    display: inline-block;
-       background-position: -17px -11px;
-    background-size: 169%;
-left: -4px;
-    top: 5px;
-    transform: rotate(-90deg);
-	}
-	&__content{
-		background: #32181b;
-		padding: 10px;
-		width:200px;
+    @media screen and (max-height: 400px) {
+        top: 14px;
+    }
 
-	}
-	&:hover{
-		right:0;
-	}
+    .fb-button {
+        border: 0;
+        background: $color-2;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        padding: 10px 17px;
+        position: absolute;
+        left: -54px;
+        overflow: hidden;
+        cursor: pointer;
+
+        span::before {
+            color: #fff;
+        }
+    }
+
+    .fb-button::before {
+        content: "";
+        background: url("../img/spritesheet.png") no-repeat scroll 0 0;
+        height: 48px;
+        width: 63px;
+        position: absolute;
+        display: inline-block;
+        background-position: -17px -11px;
+        background-size: 169%;
+        left: -4px;
+        top: 5px;
+        transform: rotate(-90deg);
+    }
+
+    &__content {
+        background: $color-2;
+        padding: 10px;
+        width: 200px;
+    }
+
+    &:hover {
+        right: 0;
+    }
+}
+
+.cookiepolicy {
+    background: #cda665;
+    bottom: 0;
+    font: 14px Arial, Helvetica, sans-serif;
+    left: 0;
+    padding: 15px 50px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+
+    span {
+        line-height: 2rem;
+    }
+}
+
+.cookiepolicy .button {
+    background: #444;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
 }
